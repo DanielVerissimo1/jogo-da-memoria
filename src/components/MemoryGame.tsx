@@ -12,7 +12,7 @@ interface Card {
   estaCombinada: boolean;
 }
 
-const SIMBOLOS_CARTAS = ['🎮', '🚀', '🎨', '🎵', '⚡', '🌟', '🔥', '💎'];
+const SIMBOLOS_CARTAS = ['🏋 ', '🚀', '📈', '🎵', '🗿', '🌴', '🔥', '⚽ '];
 
 export default function MemoryGame() {
   const [cartas, setCartas] = useState<Card[]>([]);
@@ -67,6 +67,9 @@ export default function MemoryGame() {
   const virarCarta = (idCarta: number) => {
     // Naao fazer nada se ja ha 2 cartas virada ou se a carta ja ta virada/combinada impedi
     if (cartasViradas.length === 2) return;
+    
+    // Impedir clicar no mesmo card duas vezes
+    if (cartasViradas.includes(idCarta)) return;
 
     // virar a carta
     const novasCartas = cartas.map(carta => 
