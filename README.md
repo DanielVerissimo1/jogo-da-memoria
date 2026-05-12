@@ -1,5 +1,5 @@
 <h1 align="center">
-<img alt="preview" src="./public/favicon.png" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 5%;">
+<img alt="preview" src="./public/favicon.png" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 5%;">
   <p>Jogo da Memória</p>
   <p>
     <img src="https://img.shields.io/github/last-commit/DanielVerissimo1/jogo-da-memoria?style=for-the-badge&logo=git&logoColor=white&color=462878" alt="Last Commit">
@@ -15,7 +15,7 @@
 ## 📸 Visualização do Projeto
 
 <p align="center">
-  <img alt="preview" src="./public/thambinail.png" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 70%;">
+  <img alt="preview" src="./public/thambinail.png" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 70%;">
 </p>
 
 ---
